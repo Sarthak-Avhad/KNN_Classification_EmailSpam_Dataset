@@ -20,4 +20,44 @@ The model analyzes email features and classifies messages into two categories:
 
 ---
 
-## 📂 Files in Repository
+## 🛠️ Technologies Used
+
+- Python  
+- Jupyter Notebook  
+- pandas, NumPy  
+- scikit-learn  
+- matplotlib / seaborn  
+
+---
+
+## 🔹 Project Workflow
+
+1. Load and explore the email spam dataset  
+2. Handle missing values (if any)  
+3. Encode categorical variables  
+4. Feature scaling using StandardScaler  
+5. Split data into training and testing sets  
+6. Train KNN classifier  
+7. Evaluate model using:
+   - Accuracy Score  
+   - Confusion Matrix  
+   - Classification Report  
+8. Test model on new email inputs  
+
+---
+
+## 📊 Key Learnings
+
+- KNN is sensitive to feature scaling  
+- Choosing the optimal value of K improves accuracy  
+- Spam detection is a real-world application of classification models  
+
+---
+
+## 📈 Applications
+
+- Email filtering systems  
+- Cybersecurity solutions  
+- Fraud message detection  
+- Automated content moderation  
+
